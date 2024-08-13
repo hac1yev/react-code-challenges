@@ -3,6 +3,8 @@
 // import SplitSentence from "./components/SplitSentence";
 // import SearchParams from "./components/SearchParams";
 // import GuessColor from "./components/GuessColor";
+import CirclePosition from "./components/CirclePosition";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       {/* <SplitSentence /> */}
       {/* <SearchParams /> */}
       {/* <GuessColor /> */}
+      <CirclePosition />
     </div>
   )
 }

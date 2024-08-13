@@ -13,3 +13,11 @@ body {
   background-color: #2f2f2f!important;
   color: #fff;
 }
+
+.circle {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blue;
+}
