@@ -4,7 +4,8 @@
 // import SearchParams from "./components/SearchParams";
 // import GuessColor from "./components/GuessColor";
 // import CirclePosition from "./components/CirclePosition";
-import OpenCards from "./components/OpenCards";
+// import OpenCards from "./components/OpenCards";
+// import ImageSlider from "./components/ImageSlider";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <SearchParams /> */}
       {/* <GuessColor /> */}
       {/* <CirclePosition /> */}
-      <OpenCards />
+      {/* <OpenCards /> */}
+      {/* <ImageSlider /> */}
     </div>
   )
 }
