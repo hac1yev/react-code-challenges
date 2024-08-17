@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { validate } from "../validate";
+import { validate } from "../validateSchema/validate";
 
 const useFormValidation = (initialValues, handleFormSubmit) => {
     const [values,setValues] = useState(initialValues);
