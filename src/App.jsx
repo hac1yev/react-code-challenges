@@ -6,8 +6,8 @@
 // import CirclePosition from "./components/CirclePosition";
 // import OpenCards from "./components/OpenCards";
 // import ImageSlider from "./components/ImageSlider";
-
-import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
+// import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
+// import CustomForm from "./components/CutomForm/CustomForm";
 
 function App() {
   return (
@@ -20,7 +20,8 @@ function App() {
       {/* <CirclePosition /> */}
       {/* <OpenCards /> */}
       {/* <ImageSlider /> */}
-      <FilterSortSearch />
+      {/* <FilterSortSearch /> */}
+      {/* <CustomForm /> */}
     </div>
   )
 }
