@@ -8,7 +8,13 @@
 // import ImageSlider from "./components/ImageSlider";
 // import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
 // import CustomForm from "./components/CutomForm/CustomForm";
-import MemoizationWrap from "./components/Memoization/MemoizationWrap";
+// import MemoizationWrap from "./components/Memoization/MemoizationWrap";
+// import PreviousValue from "./components/PreviousValue";
+// import DisplayFetchedData from "./components/DisplayFetchedData";
+// import Debounce from "./components/Debounce";
+import Interval from "./components/İnterval";
+
+
 
 function App() {
   return (
@@ -23,7 +29,12 @@ function App() {
       {/* <ImageSlider /> */}
       {/* <FilterSortSearch /> */}
       {/* <CustomForm /> */}
-      <MemoizationWrap />
+      {/* <MemoizationWrap /> */}
+      {/* <PreviousValue /> */}
+      {/* <DisplayFetchedData /> */}
+      {/* <Debounce /> */}
+      <Interval />
+      <LocalStorage />
     </div>
   )
 }
