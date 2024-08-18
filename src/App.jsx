@@ -8,6 +8,7 @@
 // import ImageSlider from "./components/ImageSlider";
 // import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
 // import CustomForm from "./components/CutomForm/CustomForm";
+import MemoizationWrap from "./components/Memoization/MemoizationWrap";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <ImageSlider /> */}
       {/* <FilterSortSearch /> */}
       {/* <CustomForm /> */}
+      <MemoizationWrap />
     </div>
   )
 }
