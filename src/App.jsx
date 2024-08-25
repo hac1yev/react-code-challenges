@@ -14,7 +14,9 @@
 // import Debounce from "./components/Debounce";
 // import Interval from "./components/İnterval";
 // import LocalStorage from "./components/LocalStorage";
-import NumberGuesser from "./components/NumberGuesser";
+// import NumberGuesser from "./components/NumberGuesser";
+import FAQ from "./components/FAQ";
+
 
 function App() {
   return (
@@ -35,7 +37,8 @@ function App() {
       {/* <Debounce /> */}
       {/* <Interval /> */}
       {/* <LocalStorage /> */}
-      <NumberGuesser />
+      {/* <NumberGuesser /> */}
+      <FAQ />
     </div>
   )
 }
