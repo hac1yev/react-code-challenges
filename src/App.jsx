@@ -15,8 +15,10 @@
 // import Interval from "./components/İnterval";
 // import LocalStorage from "./components/LocalStorage";
 // import NumberGuesser from "./components/NumberGuesser";
-import FAQ from "./components/FAQ";
+// import FAQ from "./components/FAQ";
+// import DateConverter from "./components/DateConverter";
 
+import StopWatch from "./components/StopWatch";
 
 function App() {
   return (
@@ -38,7 +40,9 @@ function App() {
       {/* <Interval /> */}
       {/* <LocalStorage /> */}
       {/* <NumberGuesser /> */}
-      <FAQ />
+      {/* <FAQ /> */}
+      {/* <DateConverter /> */}
+      <StopWatch />
     </div>
   )
 }
