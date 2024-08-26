@@ -19,8 +19,8 @@
 // import DateConverter from "./components/DateConverter";
 // import StopWatch from "./components/StopWatch";
 // import RockPaperScissors from "./components/RockPaperScissors";
-
-import Weather from "./components/Weather";
+// import Weather from "./components/Weather";
+import AdvancedFormValidation from "./components/AdvancedFormValidation/AdvancedFormValidation";
 
 
 function App() {
@@ -47,7 +47,8 @@ function App() {
       {/* <DateConverter /> */}
       {/* <StopWatch /> */}
       {/* <RockPaperScissors /> */}
-      <Weather />
+      {/* <Weather /> */}
+      <AdvancedFormValidation />
     </div>
   )
 }
