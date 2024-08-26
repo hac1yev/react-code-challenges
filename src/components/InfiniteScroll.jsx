@@ -1,7 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-// Component to render each item in the list
 const ListItem = ({ item }) => (
   <div className="list-item">
     {item}
@@ -12,7 +11,6 @@ ListItem.propTypes = {
     item: PropTypes.string.isRequired
 }
 
-// Main App component
 const InfiniteScroll = () => {
   const [items, setItems] = useState(Array.from({ length: 100 }, (_, i) => `Item ${i + 1}`));
   const loaderRef = useRef(null);
