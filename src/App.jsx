@@ -17,8 +17,9 @@
 // import NumberGuesser from "./components/NumberGuesser";
 // import FAQ from "./components/FAQ";
 // import DateConverter from "./components/DateConverter";
+// import StopWatch from "./components/StopWatch";
+// import RockPaperScissors from "./components/RockPaperScissors";
 
-import StopWatch from "./components/StopWatch";
 
 function App() {
   return (
@@ -42,7 +43,9 @@ function App() {
       {/* <NumberGuesser /> */}
       {/* <FAQ /> */}
       {/* <DateConverter /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      {/* <RockPaperScissors /> */}
+      {/* <Weather /> */}
     </div>
   )
 }
