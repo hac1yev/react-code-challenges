@@ -20,6 +20,8 @@
 // import StopWatch from "./components/StopWatch";
 // import RockPaperScissors from "./components/RockPaperScissors";
 
+import Weather from "./components/Weather";
+
 
 function App() {
   return (
@@ -45,7 +47,7 @@ function App() {
       {/* <DateConverter /> */}
       {/* <StopWatch /> */}
       {/* <RockPaperScissors /> */}
-      {/* <Weather /> */}
+      <Weather />
     </div>
   )
 }
