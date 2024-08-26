@@ -20,7 +20,8 @@
 // import StopWatch from "./components/StopWatch";
 // import RockPaperScissors from "./components/RockPaperScissors";
 // import Weather from "./components/Weather";
-import AdvancedFormValidation from "./components/AdvancedFormValidation/AdvancedFormValidation";
+// import AdvancedFormValidation from "./components/AdvancedFormValidation/AdvancedFormValidation";
+import InfiniteScroll from "./components/InfiniteScroll";
 
 
 function App() {
@@ -48,7 +49,8 @@ function App() {
       {/* <StopWatch /> */}
       {/* <RockPaperScissors /> */}
       {/* <Weather /> */}
-      <AdvancedFormValidation />
+      {/* <AdvancedFormValidation /> */}
+      <InfiniteScroll />
     </div>
   )
 }
