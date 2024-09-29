@@ -21,8 +21,10 @@
 // import RockPaperScissors from "./components/RockPaperScissors";
 // import Weather from "./components/Weather";
 // import AdvancedFormValidation from "./components/AdvancedFormValidation/AdvancedFormValidation";
-import InfiniteScroll from "./components/InfiniteScroll";
+// import InfiniteScroll from "./components/InfiniteScroll";  
 
+// import Exercise from "./components/Exercise";
+import ProxyComponent from "./components/Proxy";
 
 function App() {
   return (
@@ -50,7 +52,10 @@ function App() {
       {/* <RockPaperScissors /> */}
       {/* <Weather /> */}
       {/* <AdvancedFormValidation /> */}
-      <InfiniteScroll />
+      {/* <InfiniteScroll /> */}
+      {/* TO DO LIST key={index} meselesi */}
+      <ProxyComponent />
+      {/* <Exercise /> */}
     </div>
   )
 }
