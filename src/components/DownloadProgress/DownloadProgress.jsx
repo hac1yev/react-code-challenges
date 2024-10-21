@@ -65,7 +65,7 @@ const DownloadProgress = () => {
                         borderRadius: '3px'
                     }}
                 >
-                    <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)' }}>{progress}%</span>
+                    <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', whiteSpace: 'nowrap' }}>{progress}% Complete</span>
                     <span
                         style={{
                             width: `${progress}%`,
