@@ -45,6 +45,15 @@ const DownloadProgress = () => {
         a.download = 'example.jpeg';
         a.href = url;
         a.click();
+
+        function handleOnDownload() {
+            setTimeout(() => {
+                URL.revokeObjectURL(url);
+                a.removeEventListener('click', handleOnDownload);
+            }, 150);
+        }
+
+        a.addEventListener('click', handleOnDownload, false);
     };    
 
     return (
