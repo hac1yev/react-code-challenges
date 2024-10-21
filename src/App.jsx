@@ -23,8 +23,10 @@
 // import AdvancedFormValidation from "./components/AdvancedFormValidation/AdvancedFormValidation";
 // import InfiniteScroll from "./components/InfiniteScroll";  
 
+import DownloadProgress from "./components/DownloadProgress/DownloadProgress";
+
 // import Exercise from "./components/Exercise";
-import ProxyComponent from "./components/Proxy";
+// import ProxyComponent from "./components/Proxy";
 
 function App() {
   return (
@@ -54,8 +56,9 @@ function App() {
       {/* <AdvancedFormValidation /> */}
       {/* <InfiniteScroll /> */}
       {/* TO DO LIST key={index} meselesi */}
-      <ProxyComponent />
+      {/* <ProxyComponent /> */}
       {/* <Exercise /> */}
+      <DownloadProgress />
     </div>
   )
 }
