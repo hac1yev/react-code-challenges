@@ -22,11 +22,10 @@
 // import Weather from "./components/Weather";
 // import AdvancedFormValidation from "./components/AdvancedFormValidation/AdvancedFormValidation";
 // import InfiniteScroll from "./components/InfiniteScroll";  
-
-import DownloadProgress from "./components/DownloadProgress/DownloadProgress";
-
+// import DownloadProgress from "./components/DownloadProgress/DownloadProgress";
 // import Exercise from "./components/Exercise";
 // import ProxyComponent from "./components/Proxy";
+import AxiosDownloadProgress from "./components/DownloadProgress/AxiosDownloadProgress";
 
 function App() {
   return (
@@ -58,7 +57,8 @@ function App() {
       {/* TO DO LIST key={index} meselesi */}
       {/* <ProxyComponent /> */}
       {/* <Exercise /> */}
-      <DownloadProgress />
+      {/* <DownloadProgress /> */}
+      <AxiosDownloadProgress />
     </div>
   )
 }
