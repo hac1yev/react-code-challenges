@@ -25,7 +25,9 @@
 // import DownloadProgress from "./components/DownloadProgress/DownloadProgress";
 // import Exercise from "./components/Exercise";
 // import ProxyComponent from "./components/Proxy";
-import AxiosDownloadProgress from "./components/DownloadProgress/AxiosDownloadProgress";
+// import AxiosDownloadProgress from "./components/DownloadProgress/AxiosDownloadProgress";
+
+import SpaceXLaunches from "./components/SpaceXLaunches";
 
 function App() {
   return (
@@ -58,7 +60,8 @@ function App() {
       {/* <ProxyComponent /> */}
       {/* <Exercise /> */}
       {/* <DownloadProgress /> */}
-      <AxiosDownloadProgress />
+      {/* <AxiosDownloadProgress /> */}
+      <SpaceXLaunches />
     </div>
   )
 }
