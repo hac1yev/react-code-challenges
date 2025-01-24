@@ -29,8 +29,8 @@
 // import SpaceXLaunches from "./components/SpaceXLaunches";
 // import ScrollTracker from "./components/ScrollTracker";
 // import SearchItem from "./components/DebounceThrottling/SearchItem";
-
-import ClickButton from "./components/DebounceThrottling/ClickButton";
+// import ClickButton from "./components/DebounceThrottling/ClickButton";
+import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 
 function App() {
   return (
@@ -67,7 +67,8 @@ function App() {
       {/* <SpaceXLaunches /> */}
       {/* <ScrollTracker /> */}
       {/* <SearchItem /> */}
-      <ClickButton />
+      {/* <ClickButton /> */}
+      <ScrollWindow />
     </div>
   )
 }
