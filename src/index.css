@@ -14,6 +14,19 @@ body {
   color: #fff!important;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .circle {
   display: block;
   width: 30px;

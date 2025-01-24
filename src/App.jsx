@@ -26,8 +26,11 @@
 // import Exercise from "./components/Exercise";
 // import ProxyComponent from "./components/Proxy";
 // import AxiosDownloadProgress from "./components/DownloadProgress/AxiosDownloadProgress";
+// import SpaceXLaunches from "./components/SpaceXLaunches";
+// import ScrollTracker from "./components/ScrollTracker";
+// import SearchItem from "./components/DebounceThrottling/SearchItem";
 
-import SpaceXLaunches from "./components/SpaceXLaunches";
+import ClickButton from "./components/DebounceThrottling/ClickButton";
 
 function App() {
   return (
@@ -61,7 +64,10 @@ function App() {
       {/* <Exercise /> */}
       {/* <DownloadProgress /> */}
       {/* <AxiosDownloadProgress /> */}
-      <SpaceXLaunches />
+      {/* <SpaceXLaunches /> */}
+      {/* <ScrollTracker /> */}
+      {/* <SearchItem /> */}
+      <ClickButton />
     </div>
   )
 }

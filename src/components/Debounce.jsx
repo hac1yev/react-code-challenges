@@ -25,9 +25,7 @@ const [names,setNames] = useState([]);
         try {
             const response = await fetch("https://my.api.mockaroo.com/players.json?key=281cec00");
             const data = await response.json();
-            const filteredData = data.filter((item) => item.name.includes(""));
-            console.log(filteredData);
-            
+            const filteredData = data.filter((item) => item.name.includes(""))            
             setNames(filteredData);
         } catch (error) {
             console.log(error);
