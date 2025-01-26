@@ -27,12 +27,33 @@ body {
   justify-content: center;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .circle {
   display: block;
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background-color: blue;
+}
+
+button {
+  background-color: rgb(30, 30, 248);
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .opening-cards {

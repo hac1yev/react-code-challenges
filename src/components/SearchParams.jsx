@@ -5,8 +5,6 @@ const SearchParams = () => {
   const navigate = useNavigate();
   const { pathname } = useLocation();  
 
-  console.log(searchParams.get("ss"));
-
   const handleClick = () => {
     const params = new URLSearchParams(searchParams);
 

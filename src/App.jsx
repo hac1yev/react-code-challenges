@@ -30,7 +30,12 @@
 // import ScrollTracker from "./components/ScrollTracker";
 // import SearchItem from "./components/DebounceThrottling/SearchItem";
 // import ClickButton from "./components/DebounceThrottling/ClickButton";
-import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
+// import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
+
+// import GetAllCoins from "./components/HOC/GetAllCoins";
+// import SearchParams from "./components/SeachParams/SearchParams";
+// const HOCGetAllCoins = GetAllCoins(SearchParams); 
+
 
 function App() {
   return (
@@ -68,7 +73,8 @@ function App() {
       {/* <ScrollTracker /> */}
       {/* <SearchItem /> */}
       {/* <ClickButton /> */}
-      <ScrollWindow />
+      {/* <ScrollWindow /> */}
+      {/* <HOCGetAllCoins /> */}
     </div>
   )
 }
