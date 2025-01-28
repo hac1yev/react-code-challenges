@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Cards from "./Cards";
 
 const MemoryGame = () => {
+    const [currentOpenedCards,setCurrentOpenedCards] = useState([]);
     const [data,setData] = useState([
         {
             cardId: 'card1', 
@@ -84,7 +85,6 @@ const MemoryGame = () => {
             isOpen: false
         },
     ]);
-    const [currentOpenedCards,setCurrentOpenedCards] = useState([]);
 
     useEffect(() => {
         const mixedData = data.reduce((arr, item) => {
