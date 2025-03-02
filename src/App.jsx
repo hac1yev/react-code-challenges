@@ -33,7 +33,9 @@
 // import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 // import MemoryGame from "./components/MemoryGame/MemoryGame";
 
-import CodeSplitting from "./components/CodeSplittingExample/CodeSplitting";
+import SubmissionForm from "./components/geeksforgeeksTasks/SubmissionForm";
+
+// import CodeSplitting from "./components/CodeSplittingExample/CodeSplitting";
 
 // import GetAllCoins from "./components/HOC/GetAllCoins";
 // import SearchParams from "./components/SeachParams/SearchParams";
@@ -80,7 +82,8 @@ function App() {
       {/* <ScrollWindow /> */}
       {/* <HOCGetAllCoins /> */}
       {/* <MemoryGame /> */}
-      <CodeSplitting />
+      {/* <CodeSplitting /> */}
+      <SubmissionForm />
     </div>
   )
 }
