@@ -33,7 +33,9 @@
 // import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 // import MemoryGame from "./components/MemoryGame/MemoryGame";
 
-import DiceRolling from "./components/geeksforgeeksTasks/DiceRolling/DiceRolling";
+import QuizApp from "./components/geeksforgeeksTasks/QuizApp/QuizApp";
+
+// import DiceRolling from "./components/geeksforgeeksTasks/DiceRolling/DiceRolling";
 
 
 // import SubmissionForm from "./components/geeksforgeeksTasks/SubmissionForm";
@@ -85,7 +87,8 @@ function App() {
       {/* <MemoryGame /> */}
       {/* <CodeSplitting /> */}
       {/* <SubmissionForm /> */}
-      <DiceRolling />
+      {/* <DiceRolling /> */}
+      <QuizApp />
     </div>
   )
 }
