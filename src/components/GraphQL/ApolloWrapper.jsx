@@ -1,8 +1,8 @@
-import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import { ApolloClient, InMemoryCache, ApolloProvider, HttpLink } from "@apollo/client";
 import PropTypes from "prop-types";
 
 const client = new ApolloClient({
-  uri: "https://countries.trevorblades.com/",
+  link: new HttpLink({ uri: "https://countries.trevorblades.com/" }),
   cache: new InMemoryCache(),
 });
 

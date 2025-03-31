@@ -32,20 +32,16 @@
 // import ClickButton from "./components/DebounceThrottling/ClickButton";
 // import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 // import MemoryGame from "./components/MemoryGame/MemoryGame";
-
-import GraphQLWrapper from "./components/GraphQL/GraphQLWrapper";
-
+// import GraphQLWrapper from "./components/GraphQL/GraphQLWrapper";
 // import QuizApp from "./components/geeksforgeeksTasks/QuizApp/QuizApp";
-
 // import DiceRolling from "./components/geeksforgeeksTasks/DiceRolling/DiceRolling";
-
-
 // import SubmissionForm from "./components/geeksforgeeksTasks/SubmissionForm";
 // import CodeSplitting from "./components/CodeSplittingExample/CodeSplitting";
-
 // import GetAllCoins from "./components/HOC/GetAllCoins";
 // import SearchParams from "./components/SeachParams/SearchParams";
 // const HOCGetAllCoins = GetAllCoins(SearchParams); 
+
+import XSS from "./components/XSS/XssExample";
 
 
 function App() {
@@ -91,7 +87,8 @@ function App() {
       {/* <SubmissionForm /> */}
       {/* <DiceRolling /> */}
       {/* <QuizApp /> */}
-      <GraphQLWrapper />
+      {/* <GraphQLWrapper /> */}
+      <XSS />
     </div>
   )
 }
