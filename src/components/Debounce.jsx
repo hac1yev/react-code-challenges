@@ -16,7 +16,7 @@ const useDebounce = (value, delay) => {
 };
 
 const Debounce = () => {
-const [names,setNames] = useState([]);
+  const [names,setNames] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const debouncedSearchTerm = useDebounce(searchTerm, 500);
 
@@ -25,7 +25,8 @@ const [names,setNames] = useState([]);
         try {
             const response = await fetch("https://my.api.mockaroo.com/players.json?key=281cec00");
             const data = await response.json();
-            const filteredData = data.filter((item) => item.name.includes(""))            
+            
+            const filteredData = data.filter((item) => item.name)            
             setNames(filteredData);
         } catch (error) {
             console.log(error);
@@ -45,7 +46,7 @@ const [names,setNames] = useState([]);
       <p>Debounced Term: {debouncedSearchTerm}</p>
       <ul>
         {names.map((name) => (
-            <li key={name.id}>{name.name}</li>
+          <li key={name.id}>{name.name}</li>
         ))}
       </ul>
     </div>

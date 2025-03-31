@@ -5,10 +5,7 @@ export default function Weather() {
     const [condition,setCondition] = useState();
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
-
-        console.log(city);
-        
+        e.preventDefault();        
 
         try {
             const response = await fetch(`https://wttr.in/${city}?format=j1`);
