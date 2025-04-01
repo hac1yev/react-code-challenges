@@ -40,8 +40,9 @@
 // import GetAllCoins from "./components/HOC/GetAllCoins";
 // import SearchParams from "./components/SeachParams/SearchParams";
 // const HOCGetAllCoins = GetAllCoins(SearchParams); 
+// import XSS from "./components/XSS/XssExample";
 
-import XSS from "./components/XSS/XssExample";
+import CustomFocus from "./components/CustomFocus/CustomFocus";
 
 
 function App() {
@@ -88,7 +89,8 @@ function App() {
       {/* <DiceRolling /> */}
       {/* <QuizApp /> */}
       {/* <GraphQLWrapper /> */}
-      <XSS />
+      {/* <XSS /> */}
+      <CustomFocus />
     </div>
   )
 }
