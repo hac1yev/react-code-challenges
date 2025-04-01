@@ -29,7 +29,7 @@
 // import SpaceXLaunches from "./components/SpaceXLaunches";
 // import ScrollTracker from "./components/ScrollTracker";
 // import SearchItem from "./components/DebounceThrottling/SearchItem";
-// import ClickButton from "./components/DebounceThrottling/ClickButton";
+import ClickButton from "./components/DebounceThrottling/ClickButton";
 // import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 // import MemoryGame from "./components/MemoryGame/MemoryGame";
 // import GraphQLWrapper from "./components/GraphQL/GraphQLWrapper";
@@ -41,8 +41,7 @@
 // import SearchParams from "./components/SeachParams/SearchParams";
 // const HOCGetAllCoins = GetAllCoins(SearchParams); 
 // import XSS from "./components/XSS/XssExample";
-
-import CustomFocus from "./components/CustomFocus/CustomFocus";
+// import CustomFocus from "./components/CustomFocus/CustomFocus";
 
 
 function App() {
@@ -80,7 +79,7 @@ function App() {
       {/* <SpaceXLaunches /> */}
       {/* <ScrollTracker /> */}
       {/* <SearchItem /> */}
-      {/* <ClickButton /> */}
+      <ClickButton />
       {/* <ScrollWindow /> */}
       {/* <HOCGetAllCoins /> */}
       {/* <MemoryGame /> */}
@@ -90,7 +89,7 @@ function App() {
       {/* <QuizApp /> */}
       {/* <GraphQLWrapper /> */}
       {/* <XSS /> */}
-      <CustomFocus />
+      {/* <CustomFocus /> */}
     </div>
   )
 }

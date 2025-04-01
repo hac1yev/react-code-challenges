@@ -1,16 +1,18 @@
+import { useRef } from "react";
 
 const ClickButton = () => {
-    let throttle;
+    const throttleRef = useRef(false);
 
     const handleClick = () => {
-        if(!throttle) {
-            throttle = true;
+        if (!throttleRef.current) {
+            throttleRef.current = true;
+            console.log("Hello");
+            
             setTimeout(() => {
-                console.log("Hello");
-                throttle = false;
+                throttleRef.current = false;
             }, 1000);
         }
-    };    
+    };
 
     return (
         <div>
