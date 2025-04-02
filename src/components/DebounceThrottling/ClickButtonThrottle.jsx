@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-const ClickButton = () => {
+const ClickButtonThrottle = () => {
     const throttleRef = useRef(false);
 
     const handleClick = () => {
@@ -21,4 +21,4 @@ const ClickButton = () => {
     );
 };
 
-export default ClickButton;
+export default ClickButtonThrottle;

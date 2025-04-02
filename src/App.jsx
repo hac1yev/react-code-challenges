@@ -29,7 +29,8 @@
 // import SpaceXLaunches from "./components/SpaceXLaunches";
 // import ScrollTracker from "./components/ScrollTracker";
 // import SearchItem from "./components/DebounceThrottling/SearchItem";
-import ClickButton from "./components/DebounceThrottling/ClickButton";
+import ClickButtonDebounce from "./components/DebounceThrottling/ClickButtonDebounce";
+// import ClickButtonThrottle from "./components/DebounceThrottling/ClickButtonThrottle";
 // import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 // import MemoryGame from "./components/MemoryGame/MemoryGame";
 // import GraphQLWrapper from "./components/GraphQL/GraphQLWrapper";
@@ -79,7 +80,8 @@ function App() {
       {/* <SpaceXLaunches /> */}
       {/* <ScrollTracker /> */}
       {/* <SearchItem /> */}
-      <ClickButton />
+      {/* <ClickButtonThrottle /> */}
+      <ClickButtonDebounce />
       {/* <ScrollWindow /> */}
       {/* <HOCGetAllCoins /> */}
       {/* <MemoryGame /> */}
