@@ -6,7 +6,7 @@
 // import CirclePosition from "./components/CirclePosition";
 // import OpenCards from "./components/OpenCards";
 // import ImageSlider from "./components/ImageSlider";
-// import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
+import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
 // import CustomForm from "./components/CutomForm/CustomForm";
 // import MemoizationWrap from "./components/Memoization/MemoizationWrap";
 // import PreviousValue from "./components/PreviousValue";
@@ -29,7 +29,7 @@
 // import SpaceXLaunches from "./components/SpaceXLaunches";
 // import ScrollTracker from "./components/ScrollTracker";
 // import SearchItem from "./components/DebounceThrottling/SearchItem";
-import ClickButtonDebounce from "./components/DebounceThrottling/ClickButtonDebounce";
+// import ClickButtonDebounce from "./components/DebounceThrottling/ClickButtonDebounce";
 // import ClickButtonThrottle from "./components/DebounceThrottling/ClickButtonThrottle";
 // import ScrollWindow from "./components/DebounceThrottling/ScrollWindow";
 // import MemoryGame from "./components/MemoryGame/MemoryGame";
@@ -56,7 +56,7 @@ function App() {
       {/* <CirclePosition /> */}
       {/* <OpenCards /> */}
       {/* <ImageSlider /> */}
-      {/* <FilterSortSearch /> */}
+      <FilterSortSearch />
       {/* <CustomForm /> */}
       {/* <MemoizationWrap /> */}
       {/* <PreviousValue /> */}
@@ -81,7 +81,7 @@ function App() {
       {/* <ScrollTracker /> */}
       {/* <SearchItem /> */}
       {/* <ClickButtonThrottle /> */}
-      <ClickButtonDebounce />
+      {/* <ClickButtonDebounce /> */}
       {/* <ScrollWindow /> */}
       {/* <HOCGetAllCoins /> */}
       {/* <MemoryGame /> */}

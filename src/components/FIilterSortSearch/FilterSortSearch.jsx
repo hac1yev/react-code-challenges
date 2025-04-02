@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import PlayerList from './PlayerList.jsx';
 import AddPlayer from "./AddPlayer.jsx";
 import Header from "./Header.jsx";
@@ -9,6 +9,7 @@ const FilterSortSearch = () => {
     const [count,setCount] = useState(0);
     const [addText,setAddText] = useState("");
     const [searchText,setSearchText] = useState("");
+    const debounceRef = useRef(null);
 
     console.log("FILTER SORT");
 
@@ -29,7 +30,13 @@ const FilterSortSearch = () => {
     }, []);    
 
     const handleSearch = useCallback((e) => {
-        setSearchText(e.target.value);
+        if(debounceRef.current) {
+            clearTimeout(debounceRef.current);
+        }
+
+        debounceRef.current = setTimeout(() => {
+            setSearchText(e.target.value);
+        }, 1000)
     }, []);
 
     const filteredPlayers = useMemo(() => {
