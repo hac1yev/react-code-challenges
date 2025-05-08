@@ -45,6 +45,7 @@
 // import CustomFocus from "./components/CustomFocus/CustomFocus";
 
 import Translate from "./components/Translate/Translate";
+import './i18n/i18n';
 
 function App() {
   return (
