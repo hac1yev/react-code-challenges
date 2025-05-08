@@ -6,7 +6,7 @@
 // import CirclePosition from "./components/CirclePosition";
 // import OpenCards from "./components/OpenCards";
 // import ImageSlider from "./components/ImageSlider";
-import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
+// import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
 // import CustomForm from "./components/CutomForm/CustomForm";
 // import MemoizationWrap from "./components/Memoization/MemoizationWrap";
 // import PreviousValue from "./components/PreviousValue";
@@ -44,6 +44,7 @@ import FilterSortSearch from "./components/FIilterSortSearch/FilterSortSearch";
 // import XSS from "./components/XSS/XssExample";
 // import CustomFocus from "./components/CustomFocus/CustomFocus";
 
+import Translate from "./components/Translate/Translate";
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
       {/* <CirclePosition /> */}
       {/* <OpenCards /> */}
       {/* <ImageSlider /> */}
-      <FilterSortSearch />
+      {/* <FilterSortSearch /> */}
       {/* <CustomForm /> */}
       {/* <MemoizationWrap /> */}
       {/* <PreviousValue /> */}
@@ -92,6 +93,7 @@ function App() {
       {/* <GraphQLWrapper /> */}
       {/* <XSS /> */}
       {/* <CustomFocus /> */}
+      <Translate />
     </div>
   )
 }
