@@ -7,8 +7,6 @@ const Exercies = () => {
         e.preventDefault();
     };
 
-    console.log("re-render");
-
     return (
         <>
             <form onSubmit={handleSubmit}>

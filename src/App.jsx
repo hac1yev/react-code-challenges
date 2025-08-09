@@ -24,6 +24,7 @@
 // import InfiniteScroll from "./components/InfiniteScroll";  
 // import DownloadProgress from "./components/DownloadProgress/DownloadProgress";
 // import Exercise from "./components/Exercise";
+import RegexCodes from "./components/RegexCodes";
 // import ProxyComponent from "./components/Proxy";
 // import AxiosDownloadProgress from "./components/DownloadProgress/AxiosDownloadProgress";
 // import SpaceXLaunches from "./components/SpaceXLaunches";
@@ -44,8 +45,11 @@
 // import XSS from "./components/XSS/XssExample";
 // import CustomFocus from "./components/CustomFocus/CustomFocus";
 
-import Translate from "./components/Translate/Translate";
-import './i18n/i18n';
+// import { DangerButton } from "./components/SOLID/LSP/DangerButton";
+
+// import Counter from "./components/Test/Counter/Counter";
+// import Translate from "./components/Translate/Translate";
+// import './i18n/i18n';
 
 function App() {
   return (
@@ -94,7 +98,10 @@ function App() {
       {/* <GraphQLWrapper /> */}
       {/* <XSS /> */}
       {/* <CustomFocus /> */}
-      <Translate />
+      {/* <Translate /> */}
+      {/* <Counter /> */}
+      {/* <DangerButton onClick={() => alert(1)}>Title</DangerButton> */}
+      <RegexCodes />
     </div>
   )
 }

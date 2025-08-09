@@ -10,7 +10,8 @@ const Translate = () => {
 
     return (
         <>
-            <h1>{t('welcome')} {i18n.language}</h1>
+            <h1>{t('welcome')}</h1>
+            <h1>{t('logout')}</h1>
             <button onClick={() => handleChange('en')}>EN</button>
             <button onClick={() => handleChange('az')}>AZ</button>
         </>

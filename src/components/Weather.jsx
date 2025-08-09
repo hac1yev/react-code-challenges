@@ -1,8 +1,11 @@
 import { useState } from 'react';
+import { formatDate } from 'utils';
 
 export default function Weather() {
     const [city,setCity] = useState("manchester");
     const [condition,setCondition] = useState();
+
+    console.log(formatDate);
 
     const handleSubmit = async (e) => {
         e.preventDefault();        
