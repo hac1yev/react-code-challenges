@@ -24,6 +24,7 @@
 // import InfiniteScroll from "./components/InfiniteScroll";  
 // import DownloadProgress from "./components/DownloadProgress/DownloadProgress";
 // import Exercise from "./components/Exercise";
+import InputMask from "./components/InputMask";
 import RegexCodes from "./components/RegexCodes";
 // import ProxyComponent from "./components/Proxy";
 // import AxiosDownloadProgress from "./components/DownloadProgress/AxiosDownloadProgress";
@@ -101,7 +102,8 @@ function App() {
       {/* <Translate /> */}
       {/* <Counter /> */}
       {/* <DangerButton onClick={() => alert(1)}>Title</DangerButton> */}
-      <RegexCodes />
+      {/* <RegexCodes /> */}
+      <InputMask />
     </div>
   )
 }
